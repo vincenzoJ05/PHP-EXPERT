@@ -59,14 +59,12 @@ Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op d
 
 ## Opdracht
 
-> 1. Schrijf code in `index.php` met daarin een array genaamd `$studenten`
-> 2. Vul deze array met een nog een array dat bestaat uit een associatieve array met de volgende _keys_ __voornaam__, __achternaam__, __leeftijd__
+> 1. Neem de code uit het voorbeeld over.
+> 2. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de code uitvoert dan zie je zoiets als dit:
+
 
 
 
