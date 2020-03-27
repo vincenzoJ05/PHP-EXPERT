@@ -1,12 +1,10 @@
-# PHP-EXPERT-NIVEAU1-Taak01
+# PHP-EXPERT-NIVEAU1-Taak02
 
 ## Medewerkers loopen 1
 
 ## Uitleg
 
 In deze opdracht ga je door een array loopen met een for-loop. Zoals je hebt kunnen zien veranderd het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
-
-```php
 
 Multidimensionale array
 
