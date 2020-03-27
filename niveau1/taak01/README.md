@@ -7,12 +7,15 @@
 De meeste data die jij uit een database gaat halen bestaan uit arrays. Maar dit zijn niet altijd eenvoudige arrays. Vaak zijn het _multidimensionale_ arrays. Dit betekent dat er een array meerder arrays kan bevatten. Hieronder staat een voorbeelden van drie typen arrays. De eerste twee ken je al:
 
 Numerieke arrays
-```
+
+```php
 $getallen = [45,6546,676,234,8765];
 $namen = ['bart', 'david', 'emiel'];
 ```
+
 Associatieve arrays
-```
+
+```php
 $medewerker = [
   'voornaam' => 'Willem',
   'achternaam' => 'van Oranje',
@@ -25,8 +28,10 @@ $frisdrank = [
   'hoeveelheid'  => '1 liter'
 ];
 ```
+
 Multidimensionale array
-```
+
+```php
 $medewerkers = [
   [
     'voornaam' => 'Willem',
@@ -43,16 +48,16 @@ $medewerkers = [
 /* De medewerkers array heeft twee arrays. Een array op index 0 en een array op index 1
  *  Om een enkele waarde op het scherm te tonen doe je bijvoorbeeld dit.
  *
- *   <--medewerker->      
+ *   <--medewerker->
 echo $medewerkers[0]['voornaam'] // Willem
 echo $medewerkers[1]['voornaam'] // Donald
 
 ```
 
-
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
+Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.
+
 > Voorbeeld:
 >
 > 1. [ ] Ik kan met PHP een functie aanspreken
@@ -64,12 +69,8 @@ Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op d
 
 ## Eindresultaat
 
-
-
-
-
 ## Bronnen
 
->[W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
->[Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
->[PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)  
+> [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
+> [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)
