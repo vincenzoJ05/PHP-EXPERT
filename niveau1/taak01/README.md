@@ -65,7 +65,7 @@ echo $medewerkers[1]['voornaam'] // Donald
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/images/taak01.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/taak01.png)
 
 ## Bronnen
 
