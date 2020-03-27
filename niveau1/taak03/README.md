@@ -1,49 +1,74 @@
-# MODULENAAM-TAAK-NR
+# PHP-EXPERT-NIVEAU1-Taak01
 
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
+## Medewerkers loopen 2
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
->
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+In deze opdracht ga je door een array loopen met een foreach-loop. Zoals je hebt kunnen zien veranderd het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
+
+```php
+
+Multidimensionale array
+
+```php
+$medewerkers = [
+  [
+    'voornaam' => 'Willem',
+    'achternaam' => 'van Oranje',
+    'functie'  => 'koning'
+  ],
+  [
+    'voornaam' => 'Donald',
+    'achternaam' => 'Trump',
+    'functie'  => 'president'
+  ],
+  [
+    'voornaam' => 'Homer',
+    'achternaam' => 'Simpson',
+    'functie'  => 'fabrieksarbeider'
+  ],
+  [
+    'voornaam' => 'Johan',
+    'achternaam' => 'Cruyff',
+    'functie'  => 'voetbalicoon'
+  ]
+  ,
+  [
+    'voornaam' => 'Badr',
+    'achternaam' => 'Hari',
+    'functie'  => 'Kickboxer'
+  ]
+];
+
+/*  De medewerkers array heeft nu meerdere arrays. */
+
+echo $medewerkers[0]['voornaam'];  //'Willem'
+echo $medewerkers[$x]['voornaam']; // bij $x = 0 is de waarde 'Willem'
+echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
+
+//gebruik nu een foreach-loop
+foreach($medewerkers as $key => $medewerker ){
+
+}
+```
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik toon waardes op het scherm uit een associatieve array met een foreach-loop
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+> 1. Neem de code uit het voorbeeld over in assoc.php
+> 2. Schrijf een foreach-loop die door de array heen loopt.
+> 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak01/images/taak01.png)
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
+> [W3 Schools - PHP Foreach Loop](https://www.w3schools.in/php/looping/foreach/)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
+> [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)

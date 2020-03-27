@@ -1,6 +1,6 @@
 # PHP-EXPERT-NIVEAU1-Taak01
 
-## Medewerkers loopen
+## Medewerkers loopen 1
 
 ## Uitleg
 
@@ -64,5 +64,6 @@ echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 ## Bronnen
 
 > [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
+> [W3 Schools - PHP For Loop](https://www.w3schools.com/php/php_looping_for.asp)  
 > [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
 > [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)
