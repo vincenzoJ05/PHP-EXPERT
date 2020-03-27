@@ -21,13 +21,12 @@ $nieuwsberichten = [
 
 ## Opdracht
 
-> 1. Maak gebruik van de code in `index.php` 
+> 1. Maak gebruik van de code in `index.php`
 > 2. Maak gebruik van je kennis op het gebied van multidimensionale arrays en foreach-loops
 > 3. Zet alle content met de juiste html-tags op het scherm
 
 ## Eindresultaat
 
-![Eindresultaat ingezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/taak05a.png)
 ![Eindresultaat uitgezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/taak05b.png)
 
 ## Bronnen
