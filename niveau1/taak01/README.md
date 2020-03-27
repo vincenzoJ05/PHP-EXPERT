@@ -56,10 +56,6 @@ echo $medewerkers[1]['voornaam'] // Donald
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.
-
-> Voorbeeld:
->
 > 1. [ ] Ik toon waardes op het scherm uit een associatieve array
 
 ## Opdracht
