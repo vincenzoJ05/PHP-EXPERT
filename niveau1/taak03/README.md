@@ -56,7 +56,7 @@ foreach($medewerkers as $key => $medewerker ){
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in assoc.php
+> 1. Neem de code uit het voorbeeld over in taak03.php
 > 2. Schrijf een foreach-loop die door de array heen loopt.
 > 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 

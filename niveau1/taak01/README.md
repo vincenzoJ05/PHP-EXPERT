@@ -60,7 +60,7 @@ echo $medewerkers[1]['voornaam'] // Donald
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in assoc.php
+> 1. Neem de code uit het voorbeeld over in taak01.php
 > 2. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat

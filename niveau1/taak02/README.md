@@ -51,7 +51,7 @@ echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in assoc.php
+> 1. Neem de code uit het voorbeeld over in taak02.php
 > 2. Schrijf een for-loop die door de array heen loopt.
 > 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
