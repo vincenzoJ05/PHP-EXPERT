@@ -48,7 +48,7 @@ $medewerkers = [
 /* De medewerkers array heeft twee arrays. Een array op index 0 en een array op index 1
  *  Om een enkele waarde op het scherm te tonen doe je bijvoorbeeld dit.
  *
- *   <--medewerker->
+ *   <--medewerker-> */
 echo $medewerkers[0]['voornaam'] // Willem
 echo $medewerkers[1]['voornaam'] // Donald
 
@@ -60,11 +60,11 @@ Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op d
 
 > Voorbeeld:
 >
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik toon waardes op het scherm uit een associatieve array
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over.
+> 1. Neem de code uit het voorbeeld over in assoc.php
 > 2. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
