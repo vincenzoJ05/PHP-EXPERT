@@ -64,7 +64,7 @@ foreach($medewerkers as $key => $medewerker ){
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/taak01.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/images/taak03.png)
 
 ## Bronnen
 
