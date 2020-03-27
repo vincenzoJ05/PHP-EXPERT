@@ -1,6 +1,6 @@
 # PHP-EXPERT-NIVEAU1-Taak01
 
-## Studentenoverzicht
+## Medewerkers
 
 ## Uitleg
 

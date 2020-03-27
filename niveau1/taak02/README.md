@@ -1,49 +1,78 @@
-# MODULENAAM-TAAK-NR
+# PHP-EXPERT-NIVEAU1-Taak01
 
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
+## Studentenoverzicht
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
->
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+De meeste data die jij uit een database gaat halen bestaan uit arrays. Maar dit zijn niet altijd eenvoudige arrays. Vaak zijn het _multidimensionale_ arrays. Dit betekent dat er een array meerder arrays kan bevatten. Hieronder staat een voorbeelden van drie typen arrays. De eerste twee ken je al:
+
+Numerieke arrays
+
+```php
+$getallen = [45,6546,676,234,8765];
+$namen = ['bart', 'david', 'emiel'];
+```
+
+Associatieve arrays
+
+```php
+$medewerker = [
+  'voornaam' => 'Willem',
+  'achternaam' => 'van Oranje',
+  'functie'  => 'koning'
+];
+
+$frisdrank = [
+  'naam' => 'Cola',
+  'merk' => 'Coca Cola',
+  'hoeveelheid'  => '1 liter'
+];
+```
+
+Multidimensionale array
+
+```php
+$medewerkers = [
+  [
+    'voornaam' => 'Willem',
+    'achternaam' => 'van Oranje',
+    'functie'  => 'koning'
+  ],
+  [
+    'voornaam' => 'Donald',
+    'achternaam' => 'Trump',
+    'functie'  => 'president'
+  ]
+];
+
+/* De medewerkers array heeft twee arrays. Een array op index 0 en een array op index 1
+ *  Om een enkele waarde op het scherm te tonen doe je bijvoorbeeld dit.
+ *
+ *   <--medewerker-> */
+echo $medewerkers[0]['voornaam'] // Willem
+echo $medewerkers[1]['voornaam'] // Donald
+
+```
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
+Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.
+
 > Voorbeeld:
 >
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik toon waardes op het scherm uit een associatieve array
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+> 1. Neem de code uit het voorbeeld over in assoc.php
+> 2. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak01/images/taak01.png)
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
+> [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)
