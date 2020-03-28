@@ -2,7 +2,7 @@
 
 ## Uitleg
 
-In deze les ga je aan de slag met complexere arrays: `multidimensionale arrays` en met de combinatie van MySQL en PHP met behulp van PDO
+In deze module ga je aan de slag met complexere arrays: `multidimensionale arrays` en met de combinatie van MySQL en PHP met behulp van PDO
 
 > Een multidimensionale array bestaat uit een array met daarin een of meerdere arrays met data.
 > Door gebruik te maken van PDO kunnen we queries maken naar en van een database om zo gegevens op te halen en/of te wijzigen. 
