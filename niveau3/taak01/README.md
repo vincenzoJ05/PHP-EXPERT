@@ -1,49 +1,58 @@
-# MODULENAAM-TAAK-NR
+# PHP-EXPERT-NIVEAU2-Taak01
 
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
+## Medewerkers
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
->
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+In deze opdracht ga je data uit een database halen met behulp van het PDO object. Dit is een soort tussenlaag tussen PHP (de code) en MySQL (de database). PDO staat voor PHP Data Object. PDO is vele malen beter dan zijn kleine broertjes `mysql` en `mysqli`.
+De voordelen zitten in
+
+> * Beveiliging (prepared statements)
+> * Gebruiksvriendelijk (veel functies die helpen automatiseren)
+> * Herbruikbaarheid (verschillende database typen te gebruiken)
+
+Om het PDO object te gebruiken moeten we eerst een connectie maken met de database.
+In de onderstaande code staat een voorbeeld van het maken van zo'n connectie. Er wordt een connectie gemaakt met de `coolblue` database
+
+```php
+$database_lokatie     = 'localhost';
+$database_naam        = 'coolblue';
+$database_gebruiker   = 'root';
+$database_wachtwoord  = '';
+
+$database_connectie = new PDO("mysql:host=$database_lokatie;dbname=$database_naam", $database_gebruiker, $database_wachtwoord);
+```
+
+Als dat allemaal gelukt is (er is een database `coolblue` aangemaakt. Bijvoorbeeld met PHPMyAdmin) dan kunnen we de database gebruiken in PHP
+met behulp van het object `$database_connectie`
+
+Je kunt op verschillende wijzes een query uitvoeren (gegevens ophalen). Met de methode `PDO::quer()` kun je zonder variabelen eenvoudig gegevens ophalen.
+
+```php
+$bericht = $database_connectie->query('SELECT * FROM medewerkers'); //haal alle gebruikers op uit de database coolblue
+$database_gegevens = $bericht->fetchAll();
+foreach($database_gegevens as $gebruiker){  
+  echo $gebruiker['naam'] . "<br>";
+}
+```
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik toon de gegevens uit een databasetabel op het scherm met PDO
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+> 1. Maak een database aan genaam `toolsforever` met PHPMyAdmin
+> 2. Importeer het sql bestand in de database `toolsforever`
+> 3. Maak in index.php een database connectie zoals hierboven beschreven
+> 4. Haal de gegevens op uit de tabel `users` met de _methode_ `query()`
+> 5. Loop door de gegevens en toon deze op het scherm
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau3/taak01/images/resultaat.png)
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [PHP Delusions - PDO](https://phpdelusions.net/pdo)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
