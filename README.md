@@ -1,25 +1,19 @@
-# MODULENAAM
-
-> Bijvoorbeeld:  
->
-> ## PHP-Basic
+# PHP EXPERT
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de module eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> In deze module leer je de basis van PHP. Je leert o.a. welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beinvloed door het gebruik van condities binnen if/else/elif structuren en hoe je je code logisch onderverdeeld in functies.  
+In deze les ga je aan de slag met complexere arrays: `multidimensionale arrays` en met de combinatie van MySQL en PHP met behulp van PDO
+
+> Een multidimensionale array bestaat uit een array met daarin een of meerdere arrays met data.
+> Door gebruik te maken van PDO kunnen we queries maken naar en van een database om zo gegevens op te halen en/of te wijzigen. 
 
 ## Leerdoelen
 
-Alle leerdoelen die in de lossen taken naar voren komen?  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik kan een multidimensionale array lezen, schrijven en loopen met diverse type loops
+> 1. [ ] Ik kan database gegevens Toevoegen (Create), Ophalen (Select), Aanpassen (Update), Verwijderen (Delete) (C.R.U.D.) met PDO 
 
 ## Bronnen
 
-Alle bronnen die in de lossen taken naar voren komen?
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
+>[PHP Delusions - (The only proper) PDO tutorial](https://phpdelusions.net/pdo)  
