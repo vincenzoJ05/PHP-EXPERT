@@ -45,7 +45,7 @@ foreach($database_gegevens as $gebruiker){
 > 1. Maak een database aan genaam `toolsforever` met PHPMyAdmin
 > 2. Importeer het sql bestand in de database `toolsforever` (zie `files` folder)
 > 3. Maak in index.php een database connectie zoals hierboven beschreven
-> 4. Haal de gegevens op uit de tabel `users` met de _methode_ `query()`
+> 4. Haal de gegevens op met een SELECT statement uit de tabel `users` met de _methode_ `query()`
 > 5. Loop door de gegevens en toon deze op het scherm
 
 ## Eindresultaat
