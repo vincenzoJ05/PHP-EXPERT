@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak02
+# PHP-EXPERT-NIVEAU1-Taak03
 
 ## Medewerkers
 
@@ -9,7 +9,7 @@ Multidimensionale arrays kun je op verschillende manieren maken. Je kunt arrays 
 ```php
                 //     0                  1
 $multi_array_1 = [ [ 456,98,4,124,56,0 ], [ 'a','b','c','d' ] ];
-//waarbij de eerste array met cijfers in $multi_array_1 op plek 0 staat en de tweede array met letters op plek 1
+//waarbij de eerste array met cijfers in $multi_array_1 op plek 0 staat en de tweede array met letters op plek 1 (let op de komma's)
 
 $multi_array_1[0] // dit is de array met cijfers
 echo $multi_array_1[0][4] // het getal 56 komt op het scherm

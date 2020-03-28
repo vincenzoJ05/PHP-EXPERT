@@ -1,6 +1,6 @@
-# PHP-EXPERT-NIVEAU1-Taak04
+# PHP-EXPERT-NIVEAU1-Taak02
 
-## Medewerkers loopen 2
+## Medewerkers loopen 1
 
 ## Uitleg
 
@@ -43,30 +43,26 @@ $medewerkers = [
 echo $medewerkers[0]['voornaam'];  //'Willem'
 echo $medewerkers[$x]['voornaam']; // bij $x = 0 is de waarde 'Willem'
 echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
-
-//gebruik nu een foreach-loop
-foreach($medewerkers as $medewerker ){
-
-}
 ```
 
 ## Leerdoelen
 
-> 1. [ ] Ik toon waardes op het scherm uit een associatieve array met een foreach-loop
+> 1. [ ] Ik toon waardes op het scherm uit een associatieve array met een for-loop
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in taak03.php
-> 2. Schrijf een foreach-loop die door de array heen loopt.
+> 1. Neem de code uit het voorbeeld over in taak02.php
+> 2. Schrijf een for-loop die door de array heen loopt.
 > 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak02/images/resultaat.png)
+
 
 ## Bronnen
 
 > [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
-> [W3 Schools - PHP Foreach Loop](https://www.w3schools.in/php/looping/foreach/)  
+> [W3 Schools - PHP For Loop](https://www.w3schools.com/php/php_looping_for.asp)  
 > [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
 > [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)

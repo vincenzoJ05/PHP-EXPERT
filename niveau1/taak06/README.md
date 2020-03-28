@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak05
+# PHP-EXPERT-NIVEAU1-Taak06
 
 ## Nieuwssite
 
@@ -27,7 +27,7 @@ $nieuwsberichten = [
 
 ## Eindresultaat
 
-![Eindresultaat uitgezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/taak05b.png)
+![Eindresultaat uitgezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak06/images/resultaat.png)
 
 ## Bronnen
 
