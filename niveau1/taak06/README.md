@@ -1,33 +1,44 @@
-# PHP-EXPERT-NIVEAU1-Taak06
+# PHP-EXPERT-NIVEAU1-Taak05
 
-## Nieuwssite
+## Array bouwen 1
 
 ## Uitleg
 
-In deze opdracht ga je een loop door nieuwsberichten maken zodat deze correct getoond worden op het scherm. Deze techniek wordt ook gehanteerd bij WordPress of andere content management systemen
+In deze opdracht ga je zelf een multidimensionale array maken. De code om de array op het scherm te tonen is al gemaakt. 
+Aan jouw de taak om de juiste array te maken.
+Maak gebruik van de tabel over Provincies in Nederland: https://nl.wikipedia.org/wiki/Provincies_van_Nederland#Overzicht
 
 ### Multidimensionale array
 
 ```php
-
-$nieuwsberichten = [
+$provincies = [
 
 ];
+
+foreach($provincies as $provincie ){
+    echo '<h2>' . $provincie['provincie']. '</h2>';
+    echo '<ul>';
+    echo '<li>hoofdstad: ' . $provincie['hoofdstad']. '</li>';
+    echo '<li>bevolking: ' . $provincie['bevolking']. '</li>';
+    echo '<li>meeste inwoners: ' . $provincie['inwoners_gemeente']. '</li>';
+    echo '</ul>';
+
+}
 ```
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html tags
+> 1. [ ] Ik maak een multidimensionale associatieve array om daarna te kunnen loopen.
 
 ## Opdracht
 
-> 1. Maak gebruik van de code in `index.php`
-> 2. Maak gebruik van je kennis op het gebied van multidimensionale arrays en foreach-loops
-> 3. Zet alle content met de juiste html-tags op het scherm
+> 1. Neem de code uit het voorbeeld over in taak04.php
+> 2. Schrijf een multidimensionale associatieve array genaamd `$provincies`
+> 3. Zorg ervoor dat de drie __kolommen__ en de waardes juist getoond worden.
 
 ## Eindresultaat
 
-![Eindresultaat uitgezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak06/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/resultaat.png)
 
 ## Bronnen
 

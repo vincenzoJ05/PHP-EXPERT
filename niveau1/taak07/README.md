@@ -1,68 +1,37 @@
-# PHP-EXPERT-NIVEAU1-Taak02
+# PHP-EXPERT-NIVEAU1-Taak06
 
-## Medewerkers loopen 1
+## Nieuwssite
 
 ## Uitleg
 
-In deze opdracht ga je door een array loopen met een foreach-loop. Zoals je hebt kunnen zien veranderd het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
+In deze opdracht ga je een loop door nieuwsberichten maken zodat deze correct getoond worden op het scherm. Deze techniek wordt ook gehanteerd bij WordPress of andere content management systemen
 
 ### Multidimensionale array
 
 ```php
-$medewerkers = [
-  [
-    'voornaam' => 'Willem',
-    'achternaam' => 'van Oranje',
-    'functie'  => 'koning'
-  ],
-  [
-    'voornaam' => 'Donald',
-    'achternaam' => 'Trump',
-    'functie'  => 'president'
-  ],
-  [
-    'voornaam' => 'Homer',
-    'achternaam' => 'Simpson',
-    'functie'  => 'fabrieksarbeider'
-  ],
-  [
-    'voornaam' => 'Johan',
-    'achternaam' => 'Cruyff',
-    'functie'  => 'voetbalicoon'
-  ]
-  ,
-  [
-    'voornaam' => 'Badr',
-    'achternaam' => 'Hari',
-    'functie'  => 'Kickboxer'
-  ]
+
+$nieuwsberichten = [
+
 ];
-
-/*  De medewerkers array heeft nu meerdere arrays. */
-
-echo $medewerkers[0]['voornaam'];  //'Willem'
-echo $medewerkers[$x]['voornaam']; // bij $x = 0 is de waarde 'Willem'
-echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 ```
 
 ## Leerdoelen
 
-> 1. [ ] Ik toon waardes op het scherm uit een associatieve array met een for-loop
+> 1. [ ] Ik maak loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html tags
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in taak02.php
-> 2. Schrijf een for-loop die door de array heen loopt.
-> 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
+> 1. Maak gebruik van de code in `index.php`
+> 2. Maak gebruik van je kennis op het gebied van multidimensionale arrays en foreach-loops
+> 3. Zet alle content met de juiste html-tags op het scherm
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak02/images/resultaat.png)
-
+![Eindresultaat uitgezoomt](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak06/images/resultaat.png)
 
 ## Bronnen
 
 > [W3 Schools - PHP Arrays](https://www.w3schools.com/php/php_arrays_associative.asp)  
-> [W3 Schools - PHP For Loop](https://www.w3schools.com/php/php_looping_for.asp)  
+> [W3 Schools - PHP Foreach Loop](https://www.w3schools.in/php/looping/foreach/)  
 > [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)  
 > [PHP Manual - Arrays](https://www.php.net/manual/en/language.types.array.php)
