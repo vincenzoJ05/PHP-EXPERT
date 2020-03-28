@@ -1,44 +1,68 @@
-# PHP-EXPERT-NIVEAU1-Taak04
+# PHP-EXPERT-NIVEAU1-Taak03
 
-## Array bouwen 1
+## Medewerkers loopen 2
 
 ## Uitleg
 
-In deze opdracht ga je zelf een multidimensionale array maken. De code om de array op het scherm te tonen is al gemaakt. 
-Aan jouw de taak om de juiste array te maken.
-Maak gebruik van de tabel over Provincies in Nederland: https://nl.wikipedia.org/wiki/Provincies_van_Nederland#Overzicht
+In deze opdracht ga je door een array loopen met een foreach-loop. Zoals je hebt kunnen zien veranderd het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
 
 ### Multidimensionale array
 
 ```php
-$provincies = [
-
+$medewerkers = [
+  [
+    'voornaam' => 'Willem',
+    'achternaam' => 'van Oranje',
+    'functie'  => 'koning'
+  ],
+  [
+    'voornaam' => 'Donald',
+    'achternaam' => 'Trump',
+    'functie'  => 'president'
+  ],
+  [
+    'voornaam' => 'Homer',
+    'achternaam' => 'Simpson',
+    'functie'  => 'fabrieksarbeider'
+  ],
+  [
+    'voornaam' => 'Johan',
+    'achternaam' => 'Cruyff',
+    'functie'  => 'voetbalicoon'
+  ]
+  ,
+  [
+    'voornaam' => 'Badr',
+    'achternaam' => 'Hari',
+    'functie'  => 'Kickboxer'
+  ]
 ];
 
-foreach($provincies as $provincie ){
-    echo '<h2>' . $provincie['provincie']. '</h2>';
-    echo '<ul>';
-    echo '<li>hoofdstad: ' . $provincie['hoofdstad']. '</li>';
-    echo '<li>bevolking: ' . $provincie['bevolking']. '</li>';
-    echo '<li>meeste inwoners: ' . $provincie['inwoners_gemeente']. '</li>';
-    echo '</ul>';
+/*  De medewerkers array heeft nu meerdere arrays. */
+
+echo $medewerkers[0]['voornaam'];  //'Willem'
+echo $medewerkers[$x]['voornaam']; // bij $x = 0 is de waarde 'Willem'
+echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
+
+//gebruik nu een foreach-loop
+foreach($medewerkers as $key => $medewerker ){
 
 }
 ```
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak een multidimensionale associatieve array om daarna te kunnen loopen.
+> 1. [ ] Ik toon waardes op het scherm uit een associatieve array met een foreach-loop
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in taak04.php
-> 2. Schrijf een multidimensionale associatieve array genaamd `$provincies`
-> 3. Zorg ervoor dat de drie __kolommen__ en de waardes juist getoond worden.
+> 1. Neem de code uit het voorbeeld over in taak03.php
+> 2. Schrijf een foreach-loop die door de array heen loopt.
+> 3. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png)
 
 ## Bronnen
 

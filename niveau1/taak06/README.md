@@ -17,7 +17,7 @@ $nieuwsberichten = [
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak loop door een ultidimensionale associatieve array en zet de content op de juiste plek met behulp van html tags
+> 1. [ ] Ik maak loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html tags
 
 ## Opdracht
 
