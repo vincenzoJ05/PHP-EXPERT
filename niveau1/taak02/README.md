@@ -57,7 +57,7 @@ echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/taak02.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak02/images/resultaat.png)
 
 
 ## Bronnen

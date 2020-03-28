@@ -30,6 +30,7 @@ $frisdrank = [
 ```
 
 Multidimensionale array
+(hieronder zie je meerdere medewerkers in een array staan)
 
 ```php
 $medewerkers = [
@@ -60,12 +61,12 @@ echo $medewerkers[1]['voornaam'] // Donald
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in taak01.php
+> 1. Neem de code uit het voorbeeld over in index.php
 > 2. Toon van elke persoon ALLE gegevens met een echo op het scherm.
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak01/images/taak01.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak01/images/resultaat.png)
 
 ## Bronnen
 

@@ -38,7 +38,7 @@ foreach($provincies as $provincie ){
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/taak04.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/resultaat.png)
 
 ## Bronnen
 
