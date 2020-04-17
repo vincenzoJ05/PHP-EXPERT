@@ -1,49 +1,63 @@
-# MODULENAAM-TAAK-NR
+# PHP-EXPERT-NIVEAU2-Taak01
 
-> Bijvoorbeeld:  
-> PHP-Basic-Taak-01
-
-## Titel
-
-Geef de taak een pakkende titel.
-> Bijvoorbeeld:  
->
-> ## First Function
+## Medewerkers
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de opdracht eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> Functies zijn een manier om je code onder te verdelen in logische blokken. Jij kan dan bepalen wanneer het blok code dat in een functie zit wordt uitegevoerd in plaats dat alle code in een script van boven naar beneden wordt uitgevoerd.
->
->Vooral als de hoeveelheid code toeneemt is het handig om goed na te denken hoe je de code kan scheiden zodat je niet telkens dezelfde code schrijft.
->  
-> In deze les leer je hoe je een aangeleverde functie aanroept zodat de code die in die functie staat wordt uitgevoerd.
+In deze opdracht ga je nog meer data uit een database halen met behulp van het PDO object. Maar nu ga je gebruik maken van **prepared statements**. Met prepared statements ofwel _queries die voorbereid zijn_ kun je variabelen toevoegen op een een juiste wijze. Je voorkomt hiermee SQL injecties.
+
+Onthoud: Als je variabelen wilt gebruiken in een query dan moet je **placeholders** gebruiken
+
+Je schrijft een query nu als volgt:
+
+```php
+$sql = 'SELECT * FROM users WHERE email = :email AND status= :status;
+```
+
+Tijdens deze module gebruiken we dus de combinatie van een **:** en een _woord_ erachter als placeholders.
+Dat is het maken van een query. Daarna _prepare_ je de query met behulp van **PDO::prepare()**
+
+```php
+$database_connectie->prepare($sql)
+```
+
+Je maakt wederom gebruik van het `$statement` object om de query uit te voeren ofwel _execute()_ prepared sql.
+
+```php
+$statement->execute([['email' => $email, 'status' => $status]]);
+```
+
+De query is uitgevoerd en nu bepaal je wat je wilt doen met de query (aantal gevonden voorwerpen of alle records ophalen, etcetera). In dit geval de gegevens van de gebruiker ophalen:
+
+```php
+$user = $statement->fetch();
+```
+
+De volledige code:
+
+```php
+$sql = 'SELECT * FROM users WHERE email = :email AND status= :status';
+$database_connectie->prepare($sql);
+$statement->execute([['email' => $email, 'status' => $status]]);
+$user = $statement->fetch();
+```
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik toon een enkele rij gegevens uit een database tabel met behulp van PDO
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
->  
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+> 1. Maak gebruik van de database `toolsforever`.
+> 2. Maak in index.php van deze opdracht een database connectie.
+> 3. Haal de gegevens op met een SELECT WHERE statement en haal uit de `gebruikers` tabel alleen de gegeven van _Mohamed Hadid_ op.
+> 4. Toon de gegevens op het scherm.
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau3/taak02/images/resultaat.png)
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [PHP Delusions - PDO](https://phpdelusions.net/pdo)  
+> [Geek For Geeks - Associative Arrays in PHP](https://www.geeksforgeeks.org/associative-arrays-in-php/)

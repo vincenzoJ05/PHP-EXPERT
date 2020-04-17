@@ -26,11 +26,13 @@ $database_connectie = new PDO("mysql:host=$database_lokatie;dbname=$database_naa
 Als dat allemaal gelukt is (er is een database `coolblue` aangemaakt. Bijvoorbeeld met PHPMyAdmin) dan kunnen we de database gebruiken in PHP
 met behulp van het object `$database_connectie`
 
-Je kunt op verschillende wijzes een query uitvoeren (gegevens ophalen). Met de methode `PDO::quer()` kun je zonder variabelen eenvoudig gegevens ophalen.
+Je kunt op verschillende wijzes een query uitvoeren (gegevens ophalen). Met de methode `PDO::quer()` kun je zonder variabelen eenvoudig een query uitvoeren op de database.
+
+De query method geeft een `$statement` object terug waarmee je de gegevens kunt ophalen met de method PDO::fetchAll()
 
 ```php
-$bericht = $database_connectie->query('SELECT * FROM medewerkers'); //haal alle gebruikers op uit de database coolblue
-$database_gegevens = $bericht->fetchAll();
+$statement = $database_connectie->query('SELECT * FROM medewerkers'); //haal alle gebruikers op uit de database coolblue
+$database_gegevens = $statement->fetchAll();
 foreach($database_gegevens as $gebruiker){  
   echo $gebruiker['naam'] . "<br>";
 }
