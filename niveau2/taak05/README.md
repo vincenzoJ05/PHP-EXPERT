@@ -27,7 +27,7 @@ $eenHond = new Hond();
 $eenHond->naam = 'Bassie';
 $eenHond->setSoort();
 ```
-Nu is deze method `setSoort()` niet heel bruikbaar. Want steeds dezelfde string wordt toegekend. We zouden ook met parameters kunnen werken om de method dynamischer te maken:
+Nu is deze method `setSoort()` niet heel flexibel. Want steeds dezelfde string wordt toegekend. We zouden ook met parameters kunnen werken om de method dynamischer te maken:
 
 ```php
 class Hond{

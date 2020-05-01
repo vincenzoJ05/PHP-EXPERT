@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU2-Taak01
+# PHP-EXPERT-NIVEAU3-Taak03
 
 ## Medewerkers
 
@@ -14,6 +14,7 @@ Je schrijft een query nu als volgt:
 $sql = 'SELECT * FROM users WHERE email = :email AND status= :status;
 ```
 
+Je ziet hierboven twee placeholders staan: `:email` en `:status`
 Tijdens deze module gebruiken we dus de combinatie van een **:** en een _woord_ erachter als placeholders.
 Dat is het maken van een query. Daarna _prepare_ je de query met behulp van **PDO::prepare()**
 
@@ -21,16 +22,16 @@ Dat is het maken van een query. Daarna _prepare_ je de query met behulp van **PD
 $database_connectie->prepare($sql)
 ```
 
-Je maakt wederom gebruik van het `$statement` object om de query uit te voeren ofwel _execute()_ prepared sql.
+Je maakt wederom gebruik van het `$statement` object om de query uit te voeren ofwel _execute()_ de sql string die net is voorbereid.
 
 ```php
-$statement->execute([['email' => $email, 'status' => $status]]);
+$statement->execute([['email' => $email, 'status' => $status]]);// hier koppel je opgegeven variabelen en de placeholders aan elkaar met een associatieve array
 ```
 
 De query is uitgevoerd en nu bepaal je wat je wilt doen met de query (aantal gevonden voorwerpen of alle records ophalen, etcetera). In dit geval de gegevens van de gebruiker ophalen:
 
 ```php
-$user = $statement->fetch();
+$user = $statement->fetch(); //haal 1 rij uit de database op met de method fetch()
 ```
 
 De volledige code:
@@ -50,12 +51,13 @@ $user = $statement->fetch();
 
 > 1. Maak gebruik van de database `toolsforever`.
 > 2. Maak in index.php van deze opdracht een database connectie.
-> 3. Haal de gegevens op met een SELECT WHERE statement en haal uit de `gebruikers` tabel alleen de gegeven van _Mohamed Hadid_ op.
-> 4. Toon de gegevens op het scherm.
+> 3. Haal de gegevens op met een SELECT WHERE statement en haal uit de `gebruikers` tabel alleen de gegevens van _Mohamed Hadid_ op.
+> 4. Bij 3 moet je wel gebruik maken van _prepared statements_
+> 5. Toon de gegevens op het scherm.
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau3/taak02/images/resultaat.png)
+
 
 ## Bronnen
 

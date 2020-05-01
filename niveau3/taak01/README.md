@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU2-Taak01
+# PHP-EXPERT-NIVEAU3-Taak01
 
 ## Medewerkers
 
@@ -26,7 +26,7 @@ $database_connectie = new PDO("mysql:host=$database_lokatie;dbname=$database_naa
 Als dat allemaal gelukt is (er is een database `coolblue` aangemaakt. Bijvoorbeeld met PHPMyAdmin) dan kunnen we de database gebruiken in PHP
 met behulp van het object `$database_connectie`
 
-Je kunt op verschillende wijzes een query uitvoeren (gegevens ophalen). Met de methode `PDO::quer()` kun je zonder variabelen eenvoudig een query uitvoeren op de database.
+Je kunt op verschillende wijzes een query uitvoeren (gegevens ophalen). Met de methode `PDO::query()` kun je zonder variabelen eenvoudig een query uitvoeren op de database.
 
 De query method geeft een `$statement` object terug waarmee je de gegevens kunt ophalen met de method PDO::fetchAll()
 
@@ -44,7 +44,7 @@ foreach($database_gegevens as $gebruiker){
 
 ## Opdracht
 
-> 1. Maak een database aan genaam `toolsforever` met PHPMyAdmin
+> 1. Maak een database aan genaamd `toolsforever` met PHPMyAdmin
 > 2. Importeer het sql bestand in de database `toolsforever` (zie `files` folder)
 > 3. Maak in index.php een database connectie zoals hierboven beschreven
 > 4. Haal de gegevens op met een SELECT statement uit de tabel `users` met de _methode_ `query()`
