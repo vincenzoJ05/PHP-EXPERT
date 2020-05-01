@@ -15,6 +15,10 @@ echo $naam; //Mohammed
 Met properties van objecten kunnen we dat ook doen:
 
 ```php
+class Student{
+    $voornaam;
+}
+
 $nieuweStudent = new Student();
 $nieuweStudent->voornaam = 'Marcel';
 echo $nieuweStudent->voornaam; //Marcel

@@ -61,28 +61,28 @@ class Student(){
 Ok, je hebt nu een mooie bouwtekening gemaakt. Deze **class** gaan we omzetten in een **object**
 
 ```php
-class Student(){
+class Student(){//bouwtekening
   $voornaam;
   $achternaam;
   $leeftijd;
   $studentnummer;
 }
 
-$nieuweStudent = new Student(); //met het woordje new maken we een nieuw object
+$nieuweStudent = new Student(); //met het woordje new maken we een nieuw object. Zet (net als bij een functie) haakjes achter de naam van het object
 
-$nogEenNieuweStudent = new Student(); //en nu hebben we nog een student gemaakt.
+$nogEenNieuweStudent = new Student(); //en nu hebben we nog een student-object gemaakt.
 ```
 
 ## Leerdoelen
 
 > 1. [ ] Ik maak een class
-> 2. [ ] Ik maak een van de eerder gemaakte class een object
+> 2. [ ] Ik maak van de eerder gemaakte class twee objecten
 
 ## Opdracht
 
-> 1. Maak een class _auto_
+> 1. Maak een class __auto__
 > 2. Geef de volgende properties aan de auto: merk, kleur, type, uitvoering, brandstof
-> 3. Maak van de class een object, ofwel maak een auto-object. Gebruik de variable \$nieuweAuto
+> 3. Maak van de class twee objecten, ofwel maak een auto-object. Gebruik de variable $nieuweAuto en $nogEenAndereAuto
 
 ## Bronnen
 
