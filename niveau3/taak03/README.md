@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-In deze opdracht ga je nog meer data uit een database halen met behulp van het PDO object. Maar nu ga je gebruik maken van **prepared statements**. Met prepared statements ofwel _queries die voorbereid zijn_ kun je variabelen toevoegen op een een juiste wijze. Je voorkomt hiermee SQL injecties.
+In deze opdracht haal je nog meer data uit een database met behulp van het PDO-object. Maar nu maak je gebruik  van **prepared statements**. Met prepared statements ofwel _queries die voorbereid zijn_ kun je variabelen toevoegen op een een juiste wijze. Je voorkomt hiermee SQL injecties.
 
 Onthoud: Als je variabelen wilt gebruiken in een query dan moet je **placeholders** gebruiken
 
@@ -50,8 +50,8 @@ $user = $statement->fetch();
 ## Opdracht
 
 > 1. Maak gebruik van de database `toolsforever`.
-> 2. Maak in index.php van deze opdracht een database connectie.
-> 3. Haal de gegevens op met een SELECT WHERE statement en haal uit de `gebruikers` tabel alleen de gegevens van _Mohamed Hadid_ op.
+> 2. Maak in index.php van deze opdracht een databaseconnectie.
+> 3. Haal de gegevens op met een SELECT WHERE-statement en haal uit de `gebruikers` tabel alleen de gegevens van _Mohamed Hadid_ op.
 > 4. Bij 3 moet je wel gebruik maken van _prepared statements_
 > 5. Toon de gegevens op het scherm.
 
