@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-In deze opdracht ga je nog meer data uit een database halen met behulp van het PDO object.
+In deze opdracht haal je nog meer data uit een database met behulp van het PDO-object.
 
 ## Leerdoelen
 
@@ -13,8 +13,8 @@ In deze opdracht ga je nog meer data uit een database halen met behulp van het P
 ## Opdracht
 
 > 1. Maak gebruik van de database `toolsforever`
-> 2. Maak in index.php een database connectie.
-> 3. Haal de gegevens op met een SELECT statement en haal de **lokaties** op met de _methode_ `query()`
+> 2. Maak in index.php een databaseconnectie.
+> 3. Haal de gegevens op met een SELECT-statement en haal de **lokaties** op met de _methode_ `query()`
 > 4. Loop door de gegevens en toon deze op het scherm
 
 ## Eindresultaat
