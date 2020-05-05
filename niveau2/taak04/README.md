@@ -7,7 +7,7 @@ Nu wat ze kunnen, de functies ofwel de methodes: iets berekenen. Iets ophalen, i
 
 ### methods
 
-Een methode is een functie in een class. Een object heeft dus één of meerdere methodes die gebruikt kunnen worden. Er bestaan ingebouwde methodes maar je kunt zelf ook methodes maken.
+Een methode is een functie in een class. Een object heeft dus één of meerdere methodes die gebruikt kunnen worden. Er bestaan ingebouwde methodes, maar je kunt zelf ook methodes maken.
 
 ### voorbeeld
 De onderstaande class heeft een method `checkInhoud`. Deze functie doet niet zoveel behalve dan een if-statement uitvoeren. Als $inhoud vol is dan wordt er de string `De emmer is vol!` op het scherm getoont door de methode. Misschien niet zo boeiende functie/method maar het gaat erom dat je weet hoe zoiets eruit zou kunnen zien.
@@ -33,11 +33,11 @@ $rodeEmmer = new Emmer();
 $rodeEmmer->kleur = 'rood';
 $rodeEmmer->checkInhoud();
 ```
-Als je goed kijkt dan zie je dat het gebruiken van een method bijna hetzelfde werkt als het gebruiken van een propertie. Het verschil zit hem in de `()` haakjes. De functie (method) wordt nu uitgevoerd. Het handige aan OOp is dat we deze functie nu elke keer kunnen gebruiken voor ALLE objecten.
+Als je goed kijkt, zie je dat het gebruiken van een method bijna hetzelfde werkt als het gebruiken van een propertie. Het verschil zit hem in de `()` haakjes. De functie (method) wordt nu uitgevoerd. Het handige aan OOP is dat we deze functie nu elke keer kunnen gebruiken voor ALLE objecten.
 
 ```php
 $blauweEmmer = new Emmer();
-$blauweEmmer->kleur = 'blauwe'; 
+$blauweEmmer->kleur = 'blauw'; 
 $blauweEmmer->checkInhoud();
 ```
 
