@@ -1,35 +1,38 @@
 # PHP-EXPERT Moduleopdracht
 
-## HockeyClub ASD
+## Voetbalclub ASD `20
 
-## Uitleg
+## Toelichting
 
-HockeyClub ASD `1
+De voetbalclub moet een administratie systeem hebben van wie in welk team speelt maar ook of het lid betaald heeft of niet. Kortom een administratiesysteem voor leden. Daarnaast wil de club ook verschillende totaaloverzichten kunnen maken van de verschillende teams.
 
 ## Leerdoelen
 
-Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de inhoud van deze taak.  
-> Voorbeeld:
->
-> 1. [ ] Ik kan met PHP een functie aanspreken
+> 1. [ ] Ik maak een applicatie om de leden administratie van de voetbalclub te kunnen beheren
 
 ## Opdracht
 
-Duidelijke tekst die uitlegd wat de student moet precies moet doen. Eventueel onderverdeelt.
-> Voorbeeld:  
+> - Je mag gebruik maken van een CSS framework
 >
-> 1. Schrijf code in `index.php` die de functie genaamd `mijnEerstefunctie` aanroept.
-> 2. Pas de functie `mijnEersteFunctie` zo aan dat aan de tekst die getoond wordt in je browser een uitroepteken wordt toegevoegd.
+> 1. Maak een database: `voetbalclubASD`
+> 2. Maak een database bestand: db.conn.php
+> 3. Maak een pagina om alle leden te kunnen tonen
+> 4. Maak een pagina om leden te kunnen toevoegen
+> 5. Maak een pagina om leden te kunnen wijzigen
+> 6. Maak een pagina om leden te kunnen verwijderen
+> 7. Maak een pagina om teams te kunnen bekijken
+> 8. Maak een pagina om teams te kunnen wijzigen
+> 9. Maak een pagina om teams te kunnen verwijderen
+> 10. Maak een pagina om contributie van een lid aan te kunnen passen
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+Het eindresultaat is een volledig werkende applicatie die alle functionaliteiten bevat.
 
 ## Bronnen
 
 Een lijstje van links naar externe bronnen
+
 > Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
+> [W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
+> [Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)
