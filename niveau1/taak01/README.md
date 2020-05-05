@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-De meeste data die jij uit een database gaat halen bestaan uit arrays. Maar dit zijn niet altijd eenvoudige arrays. Vaak zijn het _multidimensionale_ arrays. Dit betekent dat er een array meerder arrays kan bevatten. Hieronder staat een voorbeelden van drie typen arrays. De eerste twee ken je al:
+De meeste data die jij uit een database haalt bestaat uit arrays. Maar dit zijn niet altijd eenvoudige arrays. Vaak zijn het _multidimensionale_ arrays. Dit betekent dat er een array meerder arrays kan bevatten. Hieronder staat een voorbeelden van drie typen arrays. De eerste twee ken je al:
 
 Numerieke arrays
 
@@ -46,7 +46,7 @@ $medewerkers = [
   ]
 ];
 
-/* De medewerkers array heeft twee arrays. Een array op index 0 en een array op index 1
+/* De medewerkers-array heeft twee arrays. Een array op index 0 en een array op index 1
  *  Om een enkele waarde op het scherm te tonen doe je bijvoorbeeld dit.
  *
  *   <--medewerker-> */
