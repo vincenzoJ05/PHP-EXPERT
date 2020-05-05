@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-In deze opdracht ga je een specifieke lokatie ophalen door gebruik te maken van **prepared statements**. 
+In deze opdracht haal je een specifieke lokatie op door gebruik te maken van **prepared statements**. 
 
 ## Leerdoelen
 
@@ -13,8 +13,8 @@ In deze opdracht ga je een specifieke lokatie ophalen door gebruik te maken van 
 ## Opdracht
 
 > 1. Maak gebruik van de database `toolsforever`.
-> 2. Maak in index.php van deze opdracht een database connectie.
-> 3. Haal de gegevens op met een SELECT WHERE statement en haal uit de `locations` tabel alleen de gegevens van _Groningen_ op.
+> 2. Maak in index.php van deze opdracht een databaseconnectie.
+> 3. Haal de gegevens op met een SELECT WHERE-statement en haal uit de tabel `locations` alleen de gegevens van _Groningen_ op.
 > 4. Bij 3 moet je wel gebruik maken van _prepared statements_
 > 5. Toon de gegevens op het scherm.
 
