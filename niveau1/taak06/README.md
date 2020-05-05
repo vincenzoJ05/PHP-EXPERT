@@ -5,7 +5,7 @@
 ## Uitleg
 
 In deze opdracht ga je zelf een multidimensionale array maken. De code om de array op het scherm te tonen is al gemaakt. 
-Aan jouw de taak om de juiste array te maken.
+Aan jou de taak om de juiste array te maken.
 Maak gebruik van de tabel over Provincies in Nederland: https://nl.wikipedia.org/wiki/Provincies_van_Nederland#Overzicht
 
 ### Multidimensionale array
@@ -28,7 +28,7 @@ foreach($provincies as $provincie ){
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak een multidimensionale associatieve array om daarna te kunnen loopen.
+> 1. [ ] Je maakt een multidimensionale associatieve array om daarna te kunnen loopen.
 
 ## Opdracht
 

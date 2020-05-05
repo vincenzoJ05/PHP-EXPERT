@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-In deze opdracht ga je een loop door nieuwsberichten maken zodat deze correct getoond worden op het scherm. Deze techniek wordt ook gehanteerd bij WordPress of andere content management systemen
+In deze opdracht maak je een loop door nieuwsberichten, zodat deze correct getoond worden op het scherm. Deze techniek wordt ook gehanteerd bij WordPress of andere contentmanagementsystemen
 
 ### Multidimensionale array
 
@@ -17,7 +17,7 @@ $nieuwsberichten = [
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html tags
+> 1. [ ] Ik maak een loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html-tags
 
 ## Opdracht
 
