@@ -48,7 +48,7 @@ Wil je een waarde op het scherm tonen dan moet je dus _goed_ lezen en de array _
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png) De link werkt niet
 
 ## Bronnen
 
