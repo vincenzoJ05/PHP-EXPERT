@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-In deze opdracht ga je door een array loopen met een foreach-loop. Zoals je hebt kunnen zien veranderd het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
+In deze opdracht ga je door een array loopen met een foreach-loop. Zoals je hebt kunnen zien verandert het index _getal_ elke keer. Dus we kunnnen nu met een grotere array alle info tonen.
 
 ### Multidimensionale array
 
