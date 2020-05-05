@@ -2,14 +2,13 @@
 
 ## OOP - Object Oriented Programming
 
-Een methode gebruiken die met properties aan de haal gaat
+Een methode gebruiken die de waarde van properties aanpast of ophaalt.
 
 ### methods
-
-Je kunt natuurlijk ook methods maken die properties aanpassen of de dan geldige waardes ophalen.
+Je kunt ook methods maken die properties aanpassen, bijvoorbeeld in software die in een laboratorium gebruikt wordt. Je kunt in de code een method opnemen waarmee je de waarde van property StofNaam aanpast op een elektronisch display, wanneer je het reactorvat met een bepaalde stof hebt gevuld. Ook kun je methods maken die de dan geldige waardes ophalen. In het geval van het laboratorium gebruik je deze bijvoorbeeld om te controleren wat de temperatuur is na een chemische reactie.
 
 ### voorbeeld
-Zo kun je bijvoorbeeld de _soort_ van een object instellen met een method. Je ziet dat hier het woordje __$this__ wordt gebruikt. Dat komt omdat we bij het maken van de class nog niet weten wat de namen van de objecten zullen zijn. Later weten we dat `$eenHond` gebruikt gaat worden. Maar nu weten we dat eigenlijk nog niet. Maar we willen wel de string `Duitse Herder` toekennen aan de _soort_ propertie. `$this` gaat over _deze_ class (of je kunt ook wel zeggen: gaat over dit object: dit=this)
+We hebben een class Hond met twee properties: naam en soort. Daarin kun je de _soort_ instellen met een method. Je gebruikt er het woordje __$this__ voor. Dat doen we omdat we bij het maken van de class nog niet weten wat de namen van de objecten zullen zijn. Later weten we dat `$eenHond` gebruikt gaat worden. Maar nu weten we dat eigenlijk nog niet. Maar we willen wel de string `Duitse Herder` toekennen aan de _soort_ propertie. `$this` gaat over _deze_ class (of je kunt ook wel zeggen: gaat over dit object: dit=this)
 
 ```php
 class Hond{
@@ -21,13 +20,13 @@ class Hond{
     }
 }
 ```
-En hoe gebruik je dan zo'n method (functie) dan? Bekijk eens onderstaand voorbeeld:
+Hoe gebruik je zo'n method (functie) dan? Bekijk eens onderstaand voorbeeld:
 ```php
 $eenHond = new Hond();
 $eenHond->naam = 'Bassie';
 $eenHond->setSoort();
 ```
-Nu is deze method `setSoort()` niet heel flexibel. Want steeds dezelfde string wordt toegekend. We zouden ook met parameters kunnen werken om de method dynamischer te maken:
+Nu is deze method `setSoort()` niet heel flexibel, want steeds dezelfde string wordt toegekend. We gaan met parameters werken om de method dynamischer te maken:
 
 ```php
 class Hond{
@@ -42,12 +41,12 @@ class Hond{
 $eenHond = new Hond();
 $eenHond->setSoort('Duitse Herder');
 ```
-In bovenstaand voorbeeld wordt het al een stuk dynamischer. Nogmaals: Niet hele boeiende applicatie.
+In bovenstaand voorbeeld wordt het al een stuk dynamischer. Nogmaals: geen heel boeiende applicatie.
 
 ## Leerdoelen
 
 > 1. [ ] Ik maak een `set`-methode aan die een propertie waarde geeft
-> 2. [ ] Ik maak een `get`-methode aan die een propertie ophaalt
+> 2. [ ] Ik maak een `get`-methode aan die de waarde van een propertie ophaalt
 
 ## Opdracht
 
@@ -56,7 +55,7 @@ In bovenstaand voorbeeld wordt het al een stuk dynamischer. Nogmaals: Niet hele 
 > 3. Maak twee objecten aan: $woonkamerLamp en $keukenLamp. 
 > 4. Geef de properties van de objecten waardes: 
 > - $woonkamerLamp: kleur="geel", helderheid="zacht", isAan=true
-> - $keukenLamp: kleur="wit", helderheid="vel", isAan=uit
+> - $keukenLamp: kleur="wit", helderheid="vel", isAan=false
 > 5. Maak in de class nu een method aan die de propertie isAan kan wijzigen. Noem deze method `setStatus($status)`
 > 6. Maak gebruik van de method `setStatus($status)` om de woonkamerLamp uit te zetten
 > 7. Maak in de class nu een method aan die huidige waarde van de propertie isAan kan ophalen. Noem deze method `getStatus()`.  Gebruik return in de method
