@@ -52,7 +52,7 @@ $medewerkers = [
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png) link werkt niet
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png) 
 
 
 ## Bronnen

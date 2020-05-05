@@ -2,21 +2,21 @@
 
 ## OOP - Object Oriented Programming
 
-In deze opdracht ga je kennis maken met een belangrijk concept binnen programmeren: OOP.
-OOP staat voor Object Oriented Programming. De meeste software ontwikkelaars werken hiermee. Het is een manier om code te ordenen. Je hebt er al eens gebruik van gemaakt zonder dat je het wist.
+In deze opdracht maak je kennis met een belangrijk concept binnen programmeren: OOP.
+OOP staat voor Object Oriented Programming. De meeste software-ontwikkelaars werken hiermee. Het is een manier om code te ordenen. Je hebt er al eens gebruik van gemaakt zonder dat je het wist.
 
 ### Objecten in de echte wereld
 
 ### Uitleg 1: objecten
 
-De wereld om je heen bestaat uit objecten. Denk maar aan de muis in je hand, of het bureau waar je aan zit. Maar ook jij als mens kan je definieren als object.
-Daarnaast zijn huizen, auto's, speeltuinen en voetbalveldjes ook objecten. Eigenlijk is alles een object, als we het puur vanuit een software ontwikkelaar kijken.
+De wereld om je heen bestaat uit objecten. Denk maar aan de muis in je hand, of het bureau waaraan je zit. Maar ook een mens kun je definieren als object.
+Daarnaast zijn huizen, auto's, speeltuinen en voetbalveldjes ook objecten. Eigenlijk is alles een object, als we het puur vanuit een software-ontwikkelaar kijken.
 
 > ##### Regel 1: Alles is een object
 
 ### Uitleg 2: properties (eigenschappen)
 
-Alle eerder genoemde objecten hebben eigenschappen, zoals kleur, grootte, materiaalsoort en titel of naam. Zo heeft een auto een bepaalde kleur, hoogte en merk en type naam.
+Alle eerdergenoemde objecten hebben eigenschappen, zoals: kleur, grootte, materiaalsoort, titel en naam. Zo heeft een auto een bepaalde kleur, hoogte, merk en typenaam.
 Andere objecten hebben vaak weer andere _eigenschappen_. Het Engelse woord voor eigenschap is ook wel _property_.
 
 > ##### Regel 2: Elk object heeft een of meer eigenschappen
@@ -35,7 +35,7 @@ Methods zijn functionaliteiten (functions) van een object.
 
 ### Objecten in PHP
 
-Binnen programmeertalen zijn er ook objecten. Vaak krijg je die van de bedenkers van de taal aangeleverd. Maar soms of soms vaak, moet je zelf objecten bedenken. En om dit te doen moet je eerst een blauwdruk maken, een tekening van het object voordat je het object maakt. Je maakt toch ook nooit een huis zonder bouwtekening of nooit een game of website zonder eerst een plan te maken.
+Binnen programmeertalen zijn er ook objecten. Vaak krijg je die van de bedenkers van de taal aangeleverd. Maar soms moet je zelf objecten bedenken. En om dit te doen moet je eerst een blauwdruk maken: een tekening van het object voordat je het object maakt. Je maakt toch ook nooit een huis zonder bouwtekening of nooit een game of website zonder eerst een plan te maken?
 
 Bij programmeren maken we altijd eerst een tekening om daarna een object te maken. Zo'n _tekening_ noemmen we een **class**. Als we een class van een student willen maken dan ziet dat er zo uit
 
@@ -45,7 +45,7 @@ class Student(){
 }
 ```
 
-Willen we properties toevoegen aan de student bouwtekening dan kunnen we dat zo doen:
+Willen we properties toevoegen aan de student-bouwtekening dan kunnen we dat zo doen:
 
 ```php
 class Student(){
@@ -58,7 +58,7 @@ class Student(){
 
 #### Van Class naar Object
 
-Ok, je hebt nu een mooie bouwtekening gemaakt. Deze **class** gaan we omzetten in een **object**
+Oké, je hebt nu een mooie bouwtekening gemaakt. Deze **class** gaan we omzetten in een **object**
 
 ```php
 class Student(){//bouwtekening
