@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak05
+# PHP-EXPERT-NIVEAU1-Taak06
 
 ## Array bouwen 1
 
@@ -32,13 +32,13 @@ foreach($provincies as $provincie ){
 
 ## Opdracht
 
-> 1. Neem de code uit het voorbeeld over in taak04.php
+> 1. Neem de code uit het voorbeeld over in taak06.php
 > 2. Schrijf een multidimensionale associatieve array genaamd `$provincies`
 > 3. Zorg ervoor dat de drie __kolommen__ en de waardes juist getoond worden.
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak06/images/resultaat.png)
 
 ## Bronnen
 

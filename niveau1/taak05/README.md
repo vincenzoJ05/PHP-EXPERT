@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak04
+# PHP-EXPERT-NIVEAU1-Taak05
 
 ## Medewerkers loopen 2
 
@@ -62,7 +62,7 @@ foreach($medewerkers as $medewerker ){
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak05/images/resultaat.png)
 
 ## Bronnen
 

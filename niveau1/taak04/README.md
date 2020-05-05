@@ -1,20 +1,20 @@
-# PHP-EXPERT-NIVEAU1-Taak03
+# PHP-EXPERT-NIVEAU1-Taak04
 
 ## Medewerkers
 
 ## Uitleg
 
-Multidimensionale arrays kun je op verschillende manieren maken. Je kunt arrays zetten op keys met cijfers. Bijvoorbeeld zo:
+Multidimensionale arrays kun je op verschillende manieren maken. Je kunt arrays neerzetten op keys met cijfers. Bijvoorbeeld zo:
 
 ```php
                 //     0                  1
 $multi_array_1 = [ [ 456,98,4,124,56,0 ], [ 'a','b','c','d' ] ];
 //waarbij de eerste array met cijfers in $multi_array_1 op plek 0 staat en de tweede array met letters op plek 1 (let op de komma's)
 
-$multi_array_1[0] // dit is de array met cijfers
+$multi_array_1[0] // dit is de array met cijfers [456,98,4,124,56,0]
 echo $multi_array_1[0][4] // het getal 56 komt op het scherm
 
-$multi_array_1[1] // dit is de array met letters
+$multi_array_1[1] // dit is de array met letters ['a','b','c','d']
 echo $multi_array_1[1][3] // de letter d komt op het scherm
 
 ```
@@ -48,7 +48,7 @@ Wil je een waarde op het scherm tonen dan moet je dus _goed_ lezen en de array _
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak03/images/resultaat.png)
+![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak04/images/resultaat.png)
 
 ## Bronnen
 
