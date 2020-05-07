@@ -2,7 +2,7 @@
 
 ## OOP - Object Oriented Programming
 
-We gaan in deze opdracht gebruik maken van de properties die je hebt gemaakt bij de class.
+Je gebruikt in deze opdracht de properties die je hebt gemaakt bij de class.
 
 ### Properties een waarde geven
 
@@ -35,7 +35,7 @@ echo $nieuweStudent->voornaam; //Marcel
 > - merk: Tesla
 > - kleur: rood
 > - type: model 3
-> - uitvoering; cabrio
+> - uitvoering: cabrio
 > - brandstof: elektrisch
 > 2. Toon de waardes op het scherm met een echo.
 

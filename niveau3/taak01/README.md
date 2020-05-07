@@ -4,14 +4,14 @@
 
 ## Uitleg
 
-In deze opdracht ga je data uit een database halen met behulp van het PDO object. Dit is een soort tussenlaag tussen PHP (de code) en MySQL (de database). PDO staat voor PHP Data Object. PDO is vele malen beter dan zijn kleine broertjes `mysql` en `mysqli`.
+In deze opdracht ga je data uit een database halen met behulp van het PDO-object. Dit is een soort tussenlaag tussen PHP (de code) en MySQL (de database). PDO staat voor PHP Data Object. PDO is vele malen beter dan zijn kleine broertjes `mysql` en `mysqli`.
 De voordelen zitten in
 
 > * Beveiliging (prepared statements)
-> * Gebruiksvriendelijk (veel functies die helpen automatiseren)
-> * Herbruikbaarheid (verschillende database typen te gebruiken)
+> * Gebruiksvriendelijkheid (veel functies die helpen automatiseren)
+> * Herbruikbaarheid (verschillende databasetypen te gebruiken)
 
-Om het PDO object te gebruiken moeten we eerst een connectie maken met de database.
+Om het PDO-object te gebruiken moeten we eerst een connectie maken met de database.
 In de onderstaande code staat een voorbeeld van het maken van zo'n connectie. Er wordt een connectie gemaakt met de `coolblue` database
 
 ```php
@@ -45,9 +45,9 @@ foreach($database_gegevens as $gebruiker){
 ## Opdracht
 
 > 1. Maak een database aan genaamd `toolsforever` met PHPMyAdmin
-> 2. Importeer het sql bestand in de database `toolsforever` (zie `files` folder)
+> 2. Importeer het sql-bestand in de database `toolsforever` (zie `files` folder)
 > 3. Maak in index.php een database connectie zoals hierboven beschreven
-> 4. Haal de gegevens op met een SELECT statement uit de tabel `users` met de _methode_ `query()`
+> 4. Haal de gegevens op met een SELECT-statement uit de tabel `users` met de _methode_ `query()`
 > 5. Loop door de gegevens en toon deze op het scherm
 
 ## Eindresultaat
