@@ -10,7 +10,7 @@ Nu wat ze kunnen, de functies ofwel de methodes: iets berekenen. Iets ophalen, i
 Een methode is een functie in een class. Een object heeft dus één of meerdere methodes die gebruikt kunnen worden. Er bestaan ingebouwde methodes, maar je kunt zelf ook methodes maken.
 
 ### voorbeeld
-De onderstaande class heeft een method `checkInhoud`. Deze functie doet niet zoveel behalve dan een if-statement uitvoeren. Als $inhoud vol is dan wordt er de string `De emmer is vol!` op het scherm getoont door de methode. Misschien niet zo boeiende functie/method maar het gaat erom dat je weet hoe zoiets eruit zou kunnen zien.
+De onderstaande class heeft een method `checkInhoud`. Deze functie doet niet zoveel behalve dan een if-statement uitvoeren. Als $inhoud vol is dan wordt er de string `De emmer is vol!` op het scherm getoont door de methode. Misschien niet een boeiende functie/method maar het gaat erom dat je weet hoe zoiets eruit zou kunnen zien.
 ```php
 class Emmer{
     $inhoud;
@@ -22,7 +22,7 @@ class Emmer{
             echo 'De emmer is vol!' 
             }
         else{
-            echo 'de emmer is (bijna) leeg!';
+            echo 'de emmer is niet vol';
         }
     }
 }
@@ -33,14 +33,14 @@ $rodeEmmer = new Emmer();
 $rodeEmmer->kleur = 'rood';
 $rodeEmmer->checkInhoud();
 ```
-Als je goed kijkt, zie je dat het gebruiken van een method bijna hetzelfde werkt als het gebruiken van een propertie. Het verschil zit hem in de `()` haakjes. De functie (method) wordt nu uitgevoerd. Het handige aan OOP is dat we deze functie nu elke keer kunnen gebruiken voor ALLE objecten.
+Als je goed kijkt, zie je dat het gebruiken van een method bijna hetzelfde werkt als het gebruiken van een propertie. Het verschil zit hem in de `()` haakjes. De functie/method wordt nu uitgevoerd. Het handige aan OOP is dat we deze functie nu elke keer kunnen gebruiken voor ALLE objecten.
 
 ```php
+//nu geen rodeEmmer maar een blauweEmmer
 $blauweEmmer = new Emmer();
 $blauweEmmer->kleur = 'blauw'; 
 $blauweEmmer->checkInhoud();
 ```
-
 
 ## Leerdoelen
 

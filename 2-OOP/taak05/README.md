@@ -2,7 +2,7 @@
 
 ## OOP - Object Oriented Programming
 
-Een methode gebruiken die de waarde van properties aanpast of ophaalt.
+Een methode gebruiken die de waarde van properties aanpast.
 
 ### methods
 Je kunt ook methods maken die properties aanpassen, bijvoorbeeld in software die in een laboratorium gebruikt wordt. Je kunt in de code een method opnemen waarmee je de waarde van property StofNaam aanpast op een elektronisch display, wanneer je het reactorvat met een bepaalde stof hebt gevuld. Ook kun je methods maken die de dan geldige waardes ophalen. In het geval van het laboratorium gebruik je deze bijvoorbeeld om te controleren wat de temperatuur is na een chemische reactie.
@@ -25,6 +25,7 @@ Hoe gebruik je zo'n method (functie) dan? Bekijk eens onderstaand voorbeeld:
 $eenHond = new Hond();
 $eenHond->naam = 'Bassie';
 $eenHond->setSoort();
+echo $eenHond->soort; //Duitse Herder
 ```
 Nu is deze method `setSoort()` niet heel flexibel, want steeds dezelfde string wordt toegekend. We gaan met parameters werken om de method dynamischer te maken:
 
@@ -40,13 +41,13 @@ class Hond{
 
 $eenHond = new Hond();
 $eenHond->setSoort('Duitse Herder');
+echo $eenHond->soort; // Duitse Herder
 ```
 In bovenstaand voorbeeld wordt het al een stuk dynamischer. Nogmaals: geen heel boeiende applicatie.
 
 ## Leerdoelen
 
 > 1. [ ] Ik maak een `set`-methode aan die een propertie waarde geeft
-> 2. [ ] Ik maak een `get`-methode aan die de waarde van een propertie ophaalt
 
 ## Opdracht
 
@@ -58,8 +59,6 @@ In bovenstaand voorbeeld wordt het al een stuk dynamischer. Nogmaals: geen heel 
 > - $keukenLamp: kleur="wit", helderheid="vel", isAan=false
 > 5. Maak in de class nu een method aan die de propertie isAan kan wijzigen. Noem deze method `setStatus($status)`
 > 6. Maak gebruik van de method `setStatus($status)` om de woonkamerLamp uit te zetten
-> 7. Maak in de class nu een method aan die huidige waarde van de propertie isAan kan ophalen. Noem deze method `getStatus()`.  Gebruik return in de method
-> 8. Maak gebruik van de method `getStatus()` om de keukenLamp op te halen.
 
 
 
