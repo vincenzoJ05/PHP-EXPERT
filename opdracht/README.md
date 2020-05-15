@@ -18,12 +18,9 @@ De voetbalclub moet een administratie systeem hebben van wie in welk team speelt
 > 2. Maak een database bestand: db.conn.php
 > 3. Maak een pagina om alle leden te kunnen tonen
 > 4. Maak een pagina om leden te kunnen toevoegen
-> 5. Maak een pagina om leden te kunnen wijzigen
-> 6. Maak een pagina om leden te kunnen verwijderen
-> 7. Maak een pagina om teams te kunnen bekijken
-> 8. Maak een pagina om teams te kunnen wijzigen
-> 9. Maak een pagina om teams te kunnen verwijderen
-> 10. Maak een pagina om contributie van een lid aan te kunnen passen
+> 5. Maak een pagina om leden te kunnen verwijderen
+> 6. Maak een pagina om teams te kunnen bekijken
+> 7. Maak een pagina om teams te kunnen verwijderen
 
 ## Eindresultaat
 
