@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak05
+# PHP-EXPERT-Arrays-Taak05
 
 ## Medewerkers loopen 2
 

@@ -1,23 +1,14 @@
-# PHP-EXPERT-Arrays-Taak07
+# PHP-EXPERT-Arrays-Taak08
 
-## Nieuwssite
+## Speelkaarten
 
 ## Uitleg
 
-In deze opdracht maak je een loop door nieuwsberichten, zodat deze correct getoond worden op het scherm. Deze techniek wordt ook gehanteerd bij WordPress of andere contentmanagementsystemen
-
-### Multidimensionale array
-
-```php
-
-$nieuwsberichten = [
-
-];
-```
+In deze opdracht maak je gebruik van meerdere arrays en meerdere foreach loops.
 
 ## Leerdoelen
 
-> 1. [ ] Ik maak een loop door een multidimensionale associatieve array en zet de content op de juiste plek met behulp van html-tags
+> 1. [ ] Ik maak gebruik van meerdere foreach loops om zo 
 
 ## Opdracht
 
@@ -27,7 +18,7 @@ $nieuwsberichten = [
 
 ## Eindresultaat
 
-![Eindresultaat uitgezoomt](/PHP-EXPERT/1-Arrays/taak07/images/resultaat.png)
+![Eindresultaat uitgezoomt]()
 
 ## Bronnen
 

@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak01
+# PHP-EXPERT-Arrays-Taak01
 
 ## Medewerkers
 

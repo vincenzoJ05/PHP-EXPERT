@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak06
+# PHP-EXPERT-Arrays-Taak06
 
 ## Array bouwen 1
 

@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU1-Taak02
+# PHP-EXPERT-Arrays-Taak02
 
 ## Medewerkers loopen 1
 
@@ -57,7 +57,7 @@ echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 
 ## Eindresultaat
 
-![Eindresultaat](https://github.com/ROC-van-Amsterdam-College-Amstelland/PHP-EXPERT/blob/master/niveau1/taak02/images/resultaat.png)
+![Eindresultaat](/PHP-EXPERT/1-Arrays/taak02/images/resultaat.png)
 
 
 ## Bronnen
