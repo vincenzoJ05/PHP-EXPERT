@@ -77,6 +77,7 @@
     ];
     ?>
     <!-- Pas de code hieronder aan  -->
+    <!-- Loop door de array $nieuwsberichten en toon de gegevens in de juist HTML-tags  -->
 
 
     <h1></h1>

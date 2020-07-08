@@ -4,9 +4,9 @@
 
 ## Uitleg
 
-In deze opdracht haal je nog meer data uit een database met behulp van het PDO-object. Maar nu maak je gebruik  van **prepared statements**. Met prepared statements ofwel _queries die voorbereid zijn_ kun je variabelen toevoegen op een een juiste wijze. Je voorkomt hiermee SQL injecties.
+In deze opdracht haal je nog meer data uit een database met behulp van het PDO-object. Maar nu maak je gebruik  van **prepared statements**. Met prepared statements ofwel _queries die voorbereid zijn_ kun je variabelen toevoegen op een juiste wijze. Je voorkomt hiermee SQL injecties.
 
-Onthoud: Als je variabelen wilt gebruiken in een query dan moet je **placeholders** gebruiken
+> Onthoud: Als je variabelen wilt gebruiken in een query dan moet je **placeholders** gebruiken
 
 Je schrijft een query nu als volgt:
 
@@ -15,7 +15,7 @@ $sql = 'SELECT * FROM users WHERE email = :email AND status= :status;
 ```
 
 Je ziet hierboven twee placeholders staan: `:email` en `:status`
-Tijdens deze module gebruiken we dus de combinatie van een **:** en een _woord_ erachter als placeholders.
+Tijdens deze module gebruiken we dus de combinatie van een **:** en een **woord** erachter als placeholders: **:placeholder**
 Dat is het maken van een query. Daarna _prepare_ je de query met behulp van **PDO::prepare()**
 
 ```php
