@@ -1,13 +1,15 @@
-# PHP-EXPERT-NIVEAU2-Taak05
+# PHP-EXPERT-2-OOP-Taak05
 
 ## OOP - Object Oriented Programming
 
 Een methode gebruiken die de waarde van properties ophaalt. 
 
 ### methods
+
 Bij de vorige opdracht heb je een soort van setter method gemaakt. Hiermee kon je properties aanpassen. Nou je kunt ook een method maken die properties ophaalt. Hiervoor kun je de _return_ statement gebruiken.
 
 ### voorbeeld
+
 We gebruiken weer de Hond Class.
 
 ```php
@@ -23,8 +25,11 @@ class Hond{
         return $this->soort;
     }
 }
+
 ```
+
 Hoe gebruik je zo'n method (functie) dan? Bekijk eens onderstaand voorbeeld:
+
 ```php
 $eenHond = new Hond();
 $eenHond->naam = 'Bassie';
@@ -32,6 +37,7 @@ $eenHond->setSoort("Duitse Herder");
 echo $eenHond->soort; //Duitse Herder
 echo $eenHond->getSoort(); // Duitse Herder
 ```
+
 Je ziet dat de laatste twee regels hetzelfde resultaat veroorzaken. In dit geval kan je dus beide regels code gebruiken. In de volgende opdracht zal het verschil duidelijker worden als we het gaan hebben over __zichtbaarheid__.
 
 ## Leerdoelen

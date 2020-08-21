@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU2-Taak03
+# PHP-EXPERT-2-OOP-Taak03
 
 ## OOP - Object Oriented Programming
 

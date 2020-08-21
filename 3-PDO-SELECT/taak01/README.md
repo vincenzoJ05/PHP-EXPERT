@@ -1,4 +1,4 @@
-# PHP-EXPERT-NIVEAU3-Taak01
+# PHP-EXPERT-PDO-SELECT-Taak01
 
 ## Medewerkers
 
