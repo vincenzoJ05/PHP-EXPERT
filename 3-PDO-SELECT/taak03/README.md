@@ -8,6 +8,18 @@ In deze opdracht haal je nog meer data uit een database met behulp van het PDO-o
 
 > Onthoud: Als je variabelen wilt gebruiken in een query dan moet je **placeholders** gebruiken
 
+Eerst de volledige code:
+
+```php
+$sql = 'SELECT * FROM users WHERE email = :email AND status= :status';
+$database_connectie->prepare($sql);
+$statement->bindParam(":email", $email);
+$statement->bindParam(":status", $status);
+$user = $statement->fetch();
+```
+
+De uitleg
+
 Je schrijft een query nu als volgt:
 
 ```php
@@ -25,7 +37,8 @@ $database_connectie->prepare($sql)
 Je maakt wederom gebruik van het `$statement` object om de query uit te voeren ofwel _execute()_ de sql string die net is voorbereid.
 
 ```php
-$statement->execute([['email' => $email, 'status' => $status]]);// hier koppel je opgegeven variabelen en de placeholders aan elkaar met een associatieve array
+$statement->bindParam(":email", $email);  // hier koppel je opgegeven variabele ($email) en de placeholder (":email") aan elkaar
+$statement->bindParam(":status", $status);// hier koppel je opgegeven variabele ($status) en de placeholder (":status") aan elkaar
 ```
 
 De query is uitgevoerd en nu bepaal je wat je wilt doen met de query (aantal gevonden voorwerpen of alle records ophalen, etcetera). In dit geval de gegevens van de gebruiker ophalen:
@@ -34,14 +47,7 @@ De query is uitgevoerd en nu bepaal je wat je wilt doen met de query (aantal gev
 $user = $statement->fetch(); //haal 1 rij uit de database op met de method fetch()
 ```
 
-De volledige code:
 
-```php
-$sql = 'SELECT * FROM users WHERE email = :email AND status= :status';
-$database_connectie->prepare($sql);
-$statement->execute([['email' => $email, 'status' => $status]]);
-$user = $statement->fetch();
-```
 
 ## Leerdoelen
 

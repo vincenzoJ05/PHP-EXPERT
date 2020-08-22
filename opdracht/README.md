@@ -12,41 +12,36 @@ De voetbalclub moet een administratiesysteem hebben van wie in welk team speelt 
 
 ## Opdracht
 
-> - Je mag gebruik maken van een CSS framework
->
-> ##### Database
-> 
-> 1. [ ] Maak een database: `voetbalclubASD`
+- Je mag gebruik maken van een CSS framework
 
-> ##### Gebruikers
-> 
-> 2. [ ] Maak een database tabel: `gebruikers`
-> 3. [ ] Maak de volgende _kolommen_ aan:
->       - id (int:11)
->       - voornaam (varchar:100)
->       - achternaam (varchar:100)
->       - email (varchar:200)
->       - wachtwoord (varchar:60)
->       - team (int:3)
->       - contributie (int:1)
-> 4. [ ] Zet gegevens in deze tabel.
+### Database
 
-> ##### Teams
-> 
-> 1. [ ] Maak nog een tabel: `teams`
-> 2. [ ] Maak de volgende _kolommen_ aan: 
->       - id (int:11)
->       - naam (varchar:100)
-> 3. [ ] Zet gegevens in deze tabel.
+- [ ] Maak een database: `voetbalclubASD`
 
-> ##### Pagina's
-> 
-> 4. [ ] Maak een database bestand: db.conn.php
-> 5. [ ] Maak een pagina om alle leden te kunnen tonen
-> 6. [ ] Maak een pagina om teams te kunnen bekijken
-> 7. [ ] Maak een pagina om de gegevens van een enkele gebruiker te kunnen tonen
-> 8. [ ] Maak een pagina om de gegevens van een enkel team te kunnen tonen
+- [ ] Maak een database tabel: `gebruikers`
+- [ ] Maak de volgende _kolommen_ aan:
+      - id (int:11)
+      - voornaam (varchar:100)
+      - achternaam (varchar:100)
+      - email (varchar:200)
+      - wachtwoord (varchar:60)
+      - team (int:3)
+      - contributie (int:1)
+- [ ] Zet gegevens in deze tabel.
 
+- [ ] Maak nog een tabel: `teams`
+- [ ] Maak de volgende _kolommen_ aan:
+  - id (int:11)
+  - naam (varchar:100)
+- [ ] Zet zelf bedachte gegevens in deze tabel.
+
+- [ ] Maak een database bestand: db.conn.php
+- [ ] Maak een pagina om alle leden te kunnen tonen (overzichtspagina met een tabel)
+- [ ] Maak een pagina om teams te kunnen bekijken   (overzichtspagina met een tabel)
+- [ ] Maak een pagina om de gegevens van een enkele gebruiker te kunnen tonen (overzicht van een enkele rij)
+- [ ] Maak een pagina om de gegevens van een enkel team te kunnen tonen       (overzicht van een enkele rij)
+- [ ] Maak op elke regel van de eerder gemaakte tabellen een link waarmee je de rij kunt verwijderen
+- [ ] Maak een nog link op de gegenereerde rijen om naar een aparte pagina te gaan om deze data te kunnen updaten.
 
 ## Eindresultaat
 
