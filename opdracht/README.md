@@ -29,7 +29,7 @@ De voetbalclub moet een administratiesysteem hebben van wie in welk team speelt 
       - contributieIsBetaald (boolean)
 - [ ] Zet gegevens in deze tabel.
 
-- [ ] Maak nog een tabel: `teams`tea
+- [ ] Maak nog een tabel: `teams`
 - [ ] Maak de volgende _kolommen_ aan:
   - id (int:11)
   - naam (varchar:100)
