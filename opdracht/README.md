@@ -20,16 +20,16 @@ De voetbalclub moet een administratiesysteem hebben van wie in welk team speelt 
 
 - [ ] Maak een database tabel: `gebruikers`
 - [ ] Maak de volgende _kolommen_ aan:
-      - id (int:11)
+      - id (int:11) = Primary Key
       - voornaam (varchar:100)
       - achternaam (varchar:100)
       - email (varchar:200)
       - wachtwoord (varchar:60)
-      - team (int:3)
-      - contributie (int:1)
+      - team (int:11)
+      - contributieIsBetaald (boolean)
 - [ ] Zet gegevens in deze tabel.
 
-- [ ] Maak nog een tabel: `teams`
+- [ ] Maak nog een tabel: `teams`tea
 - [ ] Maak de volgende _kolommen_ aan:
   - id (int:11)
   - naam (varchar:100)
@@ -45,10 +45,9 @@ De voetbalclub moet een administratiesysteem hebben van wie in welk team speelt 
 8. [ ] Maak een link op de pagina van opdracht 2 die ervoor zorgt dat de gebruiker (lid) verwijderd wordt (gebruik $_GET)
 9. [ ] Maak een link op de pagina van opdracht 2 die ervoor zorgt dat je de gebruiker kunt updaten.
 
-
 ## Eindresultaat
 
-Het eindresultaat is een volledig werkende webapplicatie die de overzichten van `teams` en van `gebruikers` kan tonen. Daarnaast ook de _profiel_ pagina's van individuele entiteiten.
+Het eindresultaat is een volledig werkende webapplicatie die de overzichten van `teams` en van `gebruikers` kan tonen. Daarnaast ook de _profiel_ pagina's van individuele entiteiten. Je kunt de verschilledne entitieiten verwijderen, aanpassen en toevoegen.
 
 ## Bronnen
 
