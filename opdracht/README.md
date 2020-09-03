@@ -25,10 +25,9 @@ Soms heb je te maken met heel veel data. Soms heb je te maken met hele grote dat
 7. [ ] Maak een pagina `superheros_edit.php` waarmee je de gegevens van een individuele superhero kunt __updaten/wijzigen__.
 8. [ ] Maak een pagina `superheroes_delete.php` waarmee je een individuele superhero kunt __verwijderen__.
 
-
 ## Eindresultaat
 
-Het eindresultaat is een volledig werkende webapplicatie die de overzichten van `superheros` en van `gebruikers` kan tonen. Daarnaast ook de _profiel_ pagina's van individuele entiteiten. Je kunt de verschilledne entitieiten verwijderen, aanpassen en toevoegen.
+Het eindresultaat is een volledig werkende webapplicatie die de overzichten van `superheros` kan tonen. Daarnaast ook de _profiel_ pagina's van individuele entiteiten. Je kunt de verschilledne entitieiten verwijderen, aanpassen en toevoegen.
 
 ## Bronnen
 
